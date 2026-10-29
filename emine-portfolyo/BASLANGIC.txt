@@ -1,0 +1,33 @@
+EMİNE PORTFOLYO — 30 EKİM 2026
+Son düşüş animasyonu, hareketli saç katmanları ve kayan yıldızlar dahildir.
+
+HIZLI ÖNİZLEME
+public klasöründeki index.html dosyasını tarayıcıda açabilirsiniz.
+Bu yöntem yalnızca görünümü gösterir; JSON API ve bazı tarayıcı özellikleri
+(örneğin panoya kopyalama) için aşağıdaki sunucu yöntemini kullanın.
+Fontların yüklenmesi için internet bağlantısı gerekir.
+
+NODE.JS İLE ÇALIŞTIRMA (Windows / macOS / Linux)
+1. https://nodejs.org adresinden Node.js 24 LTS sürümünü kurun.
+2. ZIP'i tamamen çıkarın; dosyaları ZIP içinden çalıştırmayın.
+3. VS Code ile emine-portfolyo klasörünü açın.
+4. Terminal > New Terminal seçin. Terminal package.json ile aynı klasörde olmalı.
+5. İlk kullanımda: npm ci
+6. Çalıştırmak için: npm start
+7. Tarayıcıda http://localhost:3000 adresini açın.
+8. Durdurmak için terminalde Ctrl+C kullanın.
+
+Windows PowerShell npm.ps1 hatası verirse aynı komutları npm.cmd ci ve
+npm.cmd start şeklinde çalıştırın veya Command Prompt terminalini seçin.
+
+DÜZENLEME
+public/index.html: içerik
+public/style.css: tasarım ve animasyonlar
+public/app.js: etkileşimler
+public/assets/: görseller
+Değişikliği kaydedip tarayıcıyı yenileyin.
+
+DERS DOSYALARI
+server.js, deploy/ ve .github/workflows/deploy.yml dahildir.
+VPS ve GitHub Actions kurulumu için README.md dosyasını okuyun.
+Yerelde açmak için VPS veya alan adı satın almanız gerekmez.
