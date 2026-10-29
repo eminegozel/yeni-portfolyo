@@ -1,0 +1,12 @@
+{
+  "name": "emine-portfolyo-vps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Emine Gözel portfolyosu — Node.js, Nginx ve systemd",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": { "express": "^5.1.0" }
+}
